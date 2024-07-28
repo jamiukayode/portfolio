@@ -1,0 +1,55 @@
+import React from 'react'
+import './Testimonial.css'
+import Img1 from '../../assets/avatar1.jpg'
+import Img2 from '../../assets/avatar2.jpg'
+import Img3 from '../../assets/avatar3.jpg'
+import Img4 from '../../assets/avatar4.jpg'
+
+const testimonial = () => {
+
+const data= [{
+  avatar:Img1,
+  name: "Bolakale",
+  review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente libero quisquam delectus nihil quia in quod exercitationem voluptate! Magnam id, earum placeat quos reprehenderit magni incidunt veniam. Tenetur, ea repudiandae!"
+},
+  {avatar:Img2,
+  name: "Bolakale",
+  review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente libero quisquam delectus nihil quia in quod exercitationem voluptate! Magnam id, earum placeat quos reprehenderit magni incidunt veniam. Tenetur, ea repudiandae!"
+},
+  {avatar:Img3,
+  name: "Bolakale",
+  review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente libero quisquam delectus nihil quia in quod exercitationem voluptate! Magnam id, earum placeat quos reprehenderit magni incidunt veniam. Tenetur, ea repudiandae!"
+},
+  {avatar:Img4,
+  name: "Bolakale",
+  review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente libero quisquam delectus nihil quia in quod exercitationem voluptate! Magnam id, earum placeat quos reprehenderit magni incidunt veniam. Tenetur, ea repudiandae!"
+},
+]
+
+  return (
+    <>
+      <section className="testimonials">
+        <h5>Review from Clients</h5>
+        <h2>Testimonials</h2>
+
+        <div className="container testimonial_container">
+          {
+            data.map(({avatar, name, review}, index) =>{
+              return(
+                <article key={index} className="testimonial">
+                <div className="client_avatar">
+                  <img src={avatar} alt="client-image" />
+                  </div>
+                  <h5 className='client_name'>{name}</h5>
+                  <small className='client_review'>{review}</small>
+              </article>
+            )
+            })
+          }
+        </div>
+      </section>
+    </>
+  )
+}
+
+export default testimonial

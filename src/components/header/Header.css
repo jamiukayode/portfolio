@@ -1,0 +1,88 @@
+header {
+    height: 100vh;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* CTA */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+/* SOCIAL LINKS */
+.header_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header_social::after {
+    content: '';
+    height: 2rem;
+    width: 1px;
+    background: var(--color-primary);
+
+}
+
+/* PROFILE IMAGE */
+.profile-img {
+    background: linear-gradient(var(--color-primary), transparent);
+    height: 30rem;
+    width: 22rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* SCROOL DOWN */
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+/* MEDIA QUERIES FOR (MEDIUM DEVICES) TABLETS */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+
+/* MEDIA QUERIES FOR (SMALL DEVICES) MOBILE PHONES */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .scroll_down,  .header_social {
+        display: none;
+    }
+
+    .header_social::after {
+        display: none;
+    }
+
+
+}
