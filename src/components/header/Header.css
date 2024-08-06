@@ -76,6 +76,10 @@ header {
         height: 100vh;
     }
 
+    .header_container h2{
+        font-size: 1rem;
+    }
+
     .scroll_down,  .header_social {
         display: none;
     }
