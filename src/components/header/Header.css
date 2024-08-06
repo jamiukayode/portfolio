@@ -80,6 +80,12 @@ header {
         font-size: 1rem;
     }
 
+    .cta .btn {
+        padding: 0.50rem 0.80rem;
+        border-radius: 0.4rem;
+    }
+    
+
     .scroll_down,  .header_social {
         display: none;
     }
