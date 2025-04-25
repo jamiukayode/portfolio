@@ -13,6 +13,7 @@ const Header = () => {
         <h5>Hello &#128075; I'm</h5>
         <h2 data-aos='fade-in'>IBRAHIM JAMIU KAYODE</h2>
         <h5 className="text-light">Full stack web developer</h5>
+        <p>I build fast, responsive & user-focused web solutions</p>
         <CTA/>
         <SocialLinks/>
         <div  data-aos="flip-in" className="profile-img">
