@@ -17,35 +17,47 @@ const Services = () => {
               <ul className="service_list">
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>Real-time web app development.</p>
+                  <p>Web application.</p>
                 </li>
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>Database design and optimization.</p>
+                  <p>APIs.</p>
                 </li>
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>Integration of third-party services and APIs.</p>
+                  <p>Wordpress Web design</p>
                 </li>
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>Security implementation (authentication, encryption).</p>
+                  <p>Responsive design.</p>
                 </li>
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>Content Management Systems (CMS) development.</p>
+                  <p>E-commerce Website</p>
                 </li>
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>Responsive website design for all devices.</p>
+                  <p>Portfolio Website</p>
                 </li>
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>E-commerce solutions.</p>
+                  <p>Blog Website</p>
                 </li>
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>Training service.</p>
+                  <p>Buy and Sell Website</p>
+                </li>
+                <li>
+                  < FaCheck className='service_list-icon' />
+                  <p>Landing page</p>
+                </li>
+                <li>
+                  < FaCheck className='service_list-icon' />
+                  <p>Sales Funnel Website</p>
+                </li>
+                <li>
+                  < FaCheck className='service_list-icon' />
+                  <p> Coding Training</p>
                 </li>
               </ul>
             </div>
@@ -62,17 +74,9 @@ const Services = () => {
                 </li>
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>Print design.</p>
-                </li>
-                <li>
-                  < FaCheck className='service_list-icon' />
-                  <p>Social media graphics.</p>
-                </li>
-                <li>
-                  < FaCheck className='service_list-icon' />
                   <p>Flyer.</p>
                 </li>
-                 
+
                 <li>
                   < FaCheck className='service_list-icon' />
                   <p>Business Cards.</p>
@@ -80,13 +84,17 @@ const Services = () => {
 
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>Presentation.</p>
+                  <p>Presentation Slides.</p>
                 </li>
-                
+                <li>
+                  < FaCheck className='service_list-icon' />
+                  <p>Brochure.</p>
+                </li>
+
               </ul>
             </div>
           </article>
-{/* END OF GRAPHICS DESIGN */}
+          {/* END OF GRAPHICS DESIGN */}
 
 
           <article data-aos="fade-up-left" className="service">
@@ -95,7 +103,15 @@ const Services = () => {
               <ul className="service_list">
                 <li>
                   < FaCheck className='service_list-icon' />
-                  <p>Resume/CV.</p>
+                  <p>Resume & CV.</p>
+                </li>
+                <li>
+                  < FaCheck className='service_list-icon' />
+                  <p>Academic research</p>
+                </li>
+                <li>
+                  < FaCheck className='service_list-icon' />
+                  <p>Cover letter</p>
                 </li>
                 <li>
                   < FaCheck className='service_list-icon' />
@@ -109,11 +125,11 @@ const Services = () => {
                   < FaCheck className='service_list-icon' />
                   <p>Custom Letter-head.</p>
                 </li>
-              
+
               </ul>
             </div>
           </article>
-{/* END OF WRITING */}
+          {/* END OF WRITING */}
         </div>
       </section>
     </div>
